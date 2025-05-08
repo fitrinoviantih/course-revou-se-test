@@ -1,29 +1,70 @@
-
-
-h3 {
-    color: deeppink;
-    background-color: rgb(152, 247, 243);
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: left;
-    font-style: inherit;
-    font-family: "Poppins";
-}
-
 h1 {
     background-color: burlywood;
-    font-size: 50px;
+    font-size: 5rem;
     text-decoration: underline;
     text-align: center;
     font-style: bold;
     font-family: "Times New Roman";
+
+    width: 900px;
+    height: 200px;
+
+    box-shadow: black 0 0 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 h2 {
     background-color: darkgreen;
-    font-size: 25px;
+    font-size: 60px;
     text-shadow: rgb(255, 255, 255);
-    text-align: end;
+    text-align: start;
     font-style: oblique;
     font-family: Helvetica;
+
+    width: 700px;
+    height: 150px;
+
+    margin: 20px;
+    padding: 20px 15px;
+    border-radius: 30px;
+    box-shadow: black 0 10px;
+}
+
+h3 {
+    color: deeppink;
+    background-color: rgb(152, 247, 243);
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-style: inherit;
+    font-family: "Poppins";
+
+    width: 400px;
+    height: 150px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 8px 5px;
+    border-radius: 10px;
+    box-shadow: black 0 0 0 10px;
+}
+
+
+h4 {
+    color: brown;
+    background-color: blanchedalmond;
+    font-size: 2rem;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    border: 10px dashed black;
+    text-align: center;
+    font-style: italic;
 }
